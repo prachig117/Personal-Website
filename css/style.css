@@ -23,6 +23,7 @@ html, body, .container {
   height: 100%;
   margin: 0;
   overflow: hidden;
+
 }
 
 .container:before {
@@ -150,6 +151,11 @@ html, body, .container {
 
 #spotify:hover {
   color: #fe2f4d!important;
+}
+
+#instagram:hover{
+  color: #c32aa3!important;
+
 }
 
 #carnations:hover {

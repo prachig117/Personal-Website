@@ -1,0 +1,155 @@
+
+
+/********************************************/
+
+@font-face{
+  font-family: PeyoRegular;
+  src: url('fonts/PeyoRegular.ttf');
+}
+
+@font-face{
+  font-family: Glamor-Regular;
+  src: url('fonts/Glamor-Regular.otf');
+}
+
+@font-face{
+  font-family: SpaceMono-Regular;
+  src: url('fonts/SpaceMono-Regular.ttf');
+}
+
+
+.portfolio-body
+ {
+
+  margin-top: 47px;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+.main-heading {
+  width: 100%;
+  border-bottom: 2px solid #1a1c33;
+}
+#portfolio-heading, #portfolio-name {
+  font-size: 63px;
+  color: #fe2f4d;
+  font-family: 'Glamor-Regular';
+}
+
+#portfolio-name {
+  font-size: 29px;
+}
+
+.portfolio-categories {
+  margin-top: 43px;
+}
+
+.corby-logo, .cardswap-logo {
+  display: inline-block;
+  padding: 12px;
+  height: 120px;
+  width: 220px;
+  border: 2px solid #1a1c33;
+  vertical-align: middle;
+}
+
+.corby-logo {
+  margin-right: 43px;
+}
+
+.corby-logo:hover, .cardswap-logo:hover {
+  border: 2px dashed #fe2f4d;
+  cursor: pointer;
+}
+
+.corby-logo img, .cardswap-logo img {
+  vertical-align: middle;
+  width: inherit;
+}
+
+.corby-logo img {
+  margin-top: 20px;
+}
+
+.cardswap-logo img{
+  margin-top: 10px;
+}
+
+.portfolio-objects {
+  margin-top: 43px;
+}
+
+.portfolio-subcat {
+  font-size: 25px;
+  font-family: 'SpaceMono-Regular';
+  text-decoration: underline;
+  padding: 10px;
+  width: max-content;
+}
+
+.port-image, .port-text {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.port-text {
+  font-size: 18px;
+  font-family: 'SpaceMono-Regular';
+  color: #1a1c33;
+}
+#mcguinness {
+  color: #ca3b32 ;
+}
+#mcguinness:hover {
+  border: 1px solid #ca3b32;
+  padding: 9px;
+}
+
+#foreignaffair {
+  color: #dc7234;
+}
+
+#foreignaffair:hover {
+  border: 1px solid #dc7234;
+  padding: 9px;
+}
+
+#polarice {
+  color: #4d71c9;
+}
+#polarice:hover {
+  border: 1px solid #4d71c9;
+  padding: 9px;
+}
+
+#mgc-redesign {
+  color: #6da8b8;
+}
+
+#mgc-redesign:hover {
+  border: 1px solid #6da8b8;
+  padding:9px;
+}
+#everythingcard{
+  color: #574d72;
+}
+#everythingcard:hover {
+  border: 1px solid #574d72;
+  padding: 9px;
+}
+
+#newsletter {
+  color: #df3c73;
+}
+#newsletter:hover {
+  border: 1px solid #df3c73;
+  padding: 9px;
+}
+
+#canday {
+  color: #FF0000;
+}
+#canday:hover {
+  border: 1px solid #FF0000;
+  padding: 9px;
+}
