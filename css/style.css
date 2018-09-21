@@ -1,0 +1,244 @@
+@font-face{
+  font-family: PeyoRegular;
+  src: url('fonts/PeyoRegular.ttf');
+}
+
+@font-face{
+  font-family: Glamor-Regular;
+  src: url('fonts/Glamor-Regular.otf');
+}
+
+@font-face{
+  font-family: SpaceMono-Regular;
+  src: url('fonts/SpaceMono-Regular.ttf');
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+html, body, .container {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container:before {
+  content:'';
+  height: 100%;
+  float: right;
+}
+
+.header-nav {
+  height: 23px;
+  background-color: light-pink;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+
+.main-content:after {
+  content:'';
+  clear: both;
+  display: block;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper > div {
+  height: 100%;
+}
+
+.left-fixed{
+  width:45%;
+  background-color: #1a1c33;
+  float: left;
+  position: fixed;
+}
+
+.right-scroll {
+  overflow: auto;
+  width: 55%;
+  margin-left: 45%;
+}
+
+.left-text {
+  height: 100%;
+}
+.section-header{
+  color: #fe2f4d;
+  font-size: 42px;
+  font-family: 'Glamor-Regular';
+  z-index: 20;
+}
+
+.type {
+  color: #1a1c33;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: 'SpaceMono-Regular';
+}
+.fact {
+  color: #1a1c33;
+  font-size: 18px;
+  font-family: 'SpaceMono-Regular';
+}
+.about p:last-child {
+  color: #fe2f4d;
+  font-family: 'Glamor-Regular';
+  font-size: 28px;
+}
+.about p{
+  font-family: 'SpaceMono-Regular';
+  color: #1a1c33;
+  font-size: 18px;
+  z-index: 20;
+}
+#name-elements {
+  color: white;
+  font-family: 'Glamor-Regular';
+}
+
+
+.name {
+  position: absolute;
+  padding-left: 79px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 66px;
+}
+.left-text img {
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-work {
+  height: 500px;
+}
+
+.section-1 {
+  background-color: white;
+  font-family: 'SpaceMono-Regular';
+  color: #1a1c33;
+  border-bottom: 2px #1a1c33 solid;
+}
+
+
+.section-1 p,.section-1 h3{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.about, .facts , .work{
+  padding: 40px;
+}
+
+.section-2 ,.section-3, .section-work{
+  background-color: white;
+  border-bottom: 2px #1a1c33 solid;
+}
+
+.section-4 {
+  background-color: white;
+}
+
+.blocks{
+  margin: 0 auto;
+  width: 30vw;
+  color: #1a1c33;
+}
+.inner-block {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.blocks p {
+  font-size: 25px;
+  font-family: 'Glamor-Regular';
+  margin-top: 65px;
+}
+
+.block2:hover,.block3:hover,.block4:hover {
+  background-color: #fa594e;
+}
+
+.block1:hover {
+  color: white;
+  background-color: #35465c;
+}
+
+.block2:hover {
+  background-color: #0077b5;
+}
+
+.block3:hover {
+  background-color: #6cc644;
+}
+
+.block1, .block2 {
+  display: inline-block;
+  margin-bottom: 2vw;
+  color: #1a1c33;
+}
+
+.block3, .block4{
+  display: inline-block;
+  color: #1a1c33;
+}
+
+.block3, .block1 {
+  margin-right: 2vw;
+}
+
+.block2, .block4{
+  margin-left: 2vw;
+}
+
+.block1, .block2, .block3, .block4 {
+  height: 150px;
+  width: 12vw;
+  border: 1px solid #1a1c33;
+}
+
+
+#animationPath, #animationPath2, #animationPath3{
+    fill:none;
+    stroke:#000000;
+    stroke-width: 0;
+}
+svg{
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.plane {
+	transform: scale(0.09);
+}
+
+.fill1 {
+ fill: #fe2f4d;
+}
+.fill2 {
+ fill: #d1253e;
+}
+.fill3 {
+ fill: #e8475f;
+}
+.fill4 {
+ fill: #d1253e;
+}
