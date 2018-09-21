@@ -125,11 +125,8 @@ html, body, .container {
   bottom: 0;
 }
 
-.section-1, .section-2, .section-3, .section-4, .section-work {
-  height: 500px;
-}
 
-.section-1 {
+.section{
   background-color: white;
   font-family: 'SpaceMono-Regular';
   color: #1a1c33;
@@ -142,18 +139,43 @@ html, body, .container {
   -webkit-margin-after: 0em;
 }
 
-.about, .facts , .work{
+.about, .facts , .work, .contact{
   padding: 40px;
 }
 
-.section-2 ,.section-3, .section-work{
-  background-color: white;
-  border-bottom: 2px #1a1c33 solid;
+.work p{
+  font-family: 'SpaceMono-Regular';
+  font-size: 18px;
 }
 
-.section-4 {
-  background-color: white;
+#spotify:hover {
+  color: #fe2f4d!important;
 }
+
+#carnations:hover {
+  color: #ffa6c9;
+}
+
+#lavenders:hover {
+  color: #e6e6fa;
+}
+
+.portfolio-link{
+  padding: 12px;
+  color: #fe2f4d;
+  font-size: 21px;
+  font-family: 'Glamor-Regular';
+  border: 2px solid #fe2f4d;
+  width: 50%;
+  text-align: center;
+}
+
+.portfolio-link:hover {
+  background-color: #1a1c33;
+  border: 2px dashed #fe2f4d;
+}
+
+
 
 .blocks{
   margin: 0 auto;

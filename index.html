@@ -4,6 +4,7 @@
 
   <head>
     <title>Prachi Gupta</title>
+
     <link rel="icon" type="image/png" href="media/assembly.png"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
@@ -11,6 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+    <script type="text/javascript" src="js/fullpage.extensions.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -73,8 +76,8 @@
             </div>
           </div>
 
-          <div class="right-scroll">
-            <div class="section-1">
+          <div id="fullpage" class="right-scroll">
+            <div class="section-1 section">
               <div class="about">
                 <span class="section-header">Hey Awesome Human!</span>
                 <br /><br/><p>I'm Prachi, a self proclaimed amazing human who loves to learn cool things and spread happiness all around.</p>
@@ -83,19 +86,33 @@
                 <br /><p>Keep scrolling!</p>
               </div>
             </div>
-            <div class="section-work">
+            <div class="section-work section">
               <div class="work">
                 <span class="section-header">Professional History And Academics</span>
+                <br />
+                <p style="border-bottom:2px solid #00a5d6;padding-bottom:18px;">At <a href="http://www.corby.ca" target="_blank" style="color:#00a5d6;text-decoration:none;">CORBY</a>, I worked with the IT Solutions Team. I was responsible for setting up multiple Contests (for brands like Absolut, Jacob's Creek, JP Wiser's), SEO updates, and website redos (for example, the McGuinness Ruby Red Grapefruit launch special).
+                 I also got the chance to branch out into sales data analysis, and handled a major internal database migration task which involved large scale data cleanup, formatting.</p>
+
+                <p style="border-bottom:2px solid #ec1b67;padding-bottom:18px;">With <a href="https://www.cardswap.ca" target="_blank" style="text-decoration:none;color:#ec1b67;">CARDSWAP</a>, I was involved in backend/full stack web development, such as setting up and creating new websites, developing newsletter and email sender systems.</p>
+
+                <p style="border-bottom:2px solid #f2761f;padding-bottom:18px;">At <a href="https://www.repindia.com" target="_blank" style="text-decoration:none; color:#f2761f;">REPINDIA</a>, I shadowed each team in the Web Services department, from client interview and the UI Design Process, to server side work. I worked on multiple website changes, mockup refining, and handled the coding side for the redesign of MaxIndia's B2B Website.</p>
+
+                <p>I recently made the switch from Computer Engineering to Economics with a Computing Option (woah, I know). When I started ECE, I realised soon that engineering would not fulfill my career hopes and prospects, and after a few terms I decided to finally cut the cord. I now get to take super awesome courses like Money and Banking, Stats, to learn more about the finance world, and having done a few programming courses I decided to go forth with the Computing option. I’ll be taking functional programming, data structures and algorithms, and database related courses and I couldn’t be more excited!</p>
+                <a href="portfolio.html">
+                  <div class="portfolio-link">
+                    <p>Here's a link to my Portfolio!</p>
+                  </div>
+                </a>
               </div>
             </div>
-            <div class="section-2 facts">
-              <span class="section-header">Some Fun Facts About Me</span>
+            <div class="section-2 facts section">
+              <span class="section-header">Some Fun Facts About Me!!</span>
               <br /><br />
               <span class="type">Something I'm Trying to Learn:</span><span class="fact"> Graphic design on all these iPad apps</span>
               <br /><br />
-              <span class="type">Spotify Playlist I'm Loving:</span><span class="fact"> <a style="text-decoration:none;color:#1a1c33;" target="_blank" href="https://open.spotify.com/user/artistintelligenceagency/playlist/1KVDwhX7NUgQSgB5zwA0zV?si=Txqol7mARmiqrOH_v4oSig">Electronic Avenue</a></span>
+              <span class="type">Spotify Playlist I'm Loving:</span><span class="fact"> <a id="spotify" style="text-decoration:none;color:#1a1c33;" target="_blank" href="https://open.spotify.com/user/artistintelligenceagency/playlist/1KVDwhX7NUgQSgB5zwA0zV?si=Txqol7mARmiqrOH_v4oSig">Electronic Avenue</a></span>
               <br /><br />
-              <span class="type">Flowers I Like Looking At:</span><span class="fact"> Carnations and Lavenders</span>
+              <span class="type">Flowers I Like Looking At:</span><span class="fact"> <span id="carnations">Carnations</span> and <span id="lavenders">Lavenders</span></span>
               <br /><br />
               <span class="type">A Place I Want to Visit:</span><span class="fact"> Montréal, Québec</span>
               <br /><br />
@@ -111,7 +128,7 @@
             a project i'm trying to pursue -->
 
             </div>
-            <div class="section-3 links">
+            <div class="section-3 links section">
               <div class="blocks">
                 <div style="padding-top: 75px;">
                 <!-- tumblr, linkedin -->
@@ -127,7 +144,7 @@
                   </a>
                 </div>
                 <!-- github, resume -->
-                <div>
+                <div style="padding-bottom: 75px;">
                   <a href="">
                     <div class="block3">
                       <div class="inner-block"><p>GitHub</p></div>
@@ -135,13 +152,12 @@
                   </a>
                   <a href="">
                     <div class="block4">
-                      <div class="inner-block"><p>Résumé</p></div>
+                      <div class="inner-block"><p>R&#233;sum&#233;</p></div>
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="section-4 contact_or_instagram"></div>
           </div>
         </div>
       </div>
