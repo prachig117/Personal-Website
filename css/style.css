@@ -13,6 +13,7 @@
   src: url('fonts/SpaceMono-Regular.ttf');
 }
 
+
 a {
   text-decoration: none;
   color: inherit;
@@ -69,6 +70,7 @@ html, body, .container {
   overflow: auto;
   width: 55%;
   margin-left: 45%;
+  scroll-snap-type: y mandatory;
 }
 
 .left-text {
@@ -132,6 +134,7 @@ html, body, .container {
   font-family: 'SpaceMono-Regular';
   color: #1a1c33;
   border-bottom: 2px #1a1c33 solid;
+  scroll-snap-align: start;
 }
 
 
@@ -274,4 +277,35 @@ svg{
 }
 .fill4 {
  fill: #d1253e;
+}
+
+
+@media screen and (max-width: 960px){
+  .container{
+    overflow: scroll;
+  }
+  .left-fixed {
+    scroll-snap-type: y mandatory;
+  }
+  .name {
+    padding-left: 0px;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+  .left-fixed {
+    width: 100%;
+    position: relative;
+    float: none;
+  }
+  .right-scroll {
+    width: 100%;
+    margin-left: auto;
+  }
+  .name {
+    position: relative;
+  }
+  .left-text img {
+    position: relative;
+  }
+
 }
