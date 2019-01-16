@@ -262,6 +262,15 @@ html, body, .container {
   font-size: 56px;
 }
 
+.link {
+  display: inline-block;
+}
+
+.link img {
+  height: 35px;
+  width: 35px;
+}
+
 /* *********** MENU ************* */
 
 #menu-logo {
@@ -337,10 +346,8 @@ svg{
 @media screen and (max-width: 960px){
   .container{
     overflow: scroll;
-    display: none;
   }
   .mobile {
-    display: block;
   }
   .section {
     scroll-snap-align: none;
@@ -382,4 +389,13 @@ svg{
     cursor: pointer;
   }
 
+}
+
+@media screen and (max-width: 560px) {
+  .mobile {
+    display: block;
+  }
+  .container{
+    display: none;
+  }
 }
