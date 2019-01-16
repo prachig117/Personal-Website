@@ -9,18 +9,12 @@ $(document).ready(function(){
 	//methods
 	$.fn.fullpage.setAllowScrolling(false);
   $('#name').css('padding-top',''+($(window).height())/2 - 83+'px');
-  $('#menu-open-button').click(function() {
-    $('.menu').fadeIn();
-    $('.menu-icon').fadeOut();
-    $('.container').css('overflow','hidden');
-  });
-  $('#menu-close-button').click(function() {
-    $('.menu').fadeOut();
-    $('.menu-icon').fadeIn();
-    $('.container').css('overflow','scroll');
-  });
+  $('.main-name').css('padding-top',''+($(window).height())/2 - 143+'px');
+
 
 });
 $(window).resize(function(){
   $('#name').css('padding-top',''+($(window).height())/2 - 83+'px');
+  $('.main-name').css('padding-top',''+($(window).height())/2 - 143+'px');
+
 });

@@ -249,7 +249,18 @@ html, body, .container {
   border: 1px solid #1a1c33;
 }
 
+/****** MOBILE *******/
 
+.mobile {
+  background-color: #1a1c33;
+  color: #fe2f4d;
+  font-family: 'Glamor-Regular';
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 56px;
+}
 
 /* *********** MENU ************* */
 
@@ -326,20 +337,25 @@ svg{
 @media screen and (max-width: 960px){
   .container{
     overflow: scroll;
+    display: none;
   }
-  .left-fixed {
-    scroll-snap-type: y mandatory;
+  .mobile {
+    display: block;
+  }
+  .section {
+    scroll-snap-align: none;
+    scroll-snap-type: none;
   }
   .name {
     padding-left: 0px;
     text-align: center;
-    scroll-snap-align: start;
   }
   .left-fixed {
     width: 100%;
-    position: relative;
     float: none;
+    position: relative;
   }
+
   .right-scroll {
     width: 100%;
     margin-left: auto;
