@@ -250,6 +250,49 @@ html, body, .container {
 }
 
 
+
+/* *********** MENU ************* */
+
+#menu-logo {
+  float: right;
+  height: 100px;
+  width: auto;
+  display: none;
+  z-index: 80;
+}
+#cross {
+  float: right;
+  height: 60px;
+  width: auto;
+  opacity: 90%;
+  padding: 20px;
+  padding-right: 40px;
+}
+
+.menu{
+  background-color: rgba(57, 69, 78,0.95);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  display: none;
+
+}
+
+#menu-centre{
+  position: absolute;
+  vertical-align: middle;
+  top: 27%;
+  width: 100%;
+}
+
+.menu p {
+  font-size: 36px;
+  font-family: 'Glamor-Regular';
+  color: #fe2f4d;
+}
+
 #animationPath, #animationPath2, #animationPath3{
     fill:none;
     stroke:#000000;
@@ -306,6 +349,21 @@ svg{
   }
   .left-text img {
     position: relative;
+  }
+  .block1, .block2, .block3, .block4 {
+    width: 40vw;
+    margin: 0 auto;
+  }
+  .block12 {
+    margin-bottom: 11px;
+  }
+  .blocks {
+    width: auto;
+    text-align: center;
+  }
+  #menu-logo {
+    display: block;
+    cursor: pointer;
   }
 
 }
