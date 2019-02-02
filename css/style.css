@@ -177,6 +177,7 @@ html, body, .container {
   border: 2px solid #fe2f4d;
   width: 50%;
   text-align: center;
+  margin-top: 23px;
 }
 
 .portfolio-link:hover {
@@ -184,7 +185,18 @@ html, body, .container {
   border: 2px dashed #fe2f4d;
 }
 
+.info-button {
+    font-size: 24px;
+    cursor: pointer;
 
+}
+
+.info-button:hover {
+    font-style: oblique;
+}
+.info {
+    display: none;
+}
 
 .blocks{
   margin: 0 auto;

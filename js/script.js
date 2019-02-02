@@ -28,6 +28,50 @@ $(document).ready(function(){
     $('.right-scroll').attr('id','fullpage');
   }
 
+  $('#corby').click(function(){
+     if ($('#corby-info').css('display') == 'none') {
+         $('#corby-info').fadeIn();
+         $('#cardswap-info').fadeOut();
+         $('#repindia-info').fadeOut();
+         $('#academic-info').fadeOut();
+     } else {
+         $('#corby-info').fadeOut();
+     }
+  });
+
+  $('#cardswap').click(function(){
+     if ($('#cardswap-info').css('display') == 'none') {
+         $('#cardswap-info').fadeIn();
+         $('#corby-info').fadeOut();
+         $('#repindia-info').fadeOut();
+         $('#academic-info').fadeOut();
+     } else {
+         $('#cardswap-info').fadeOut();
+     }
+  });
+
+  $('#repindia').click(function(){
+     if ($('#repindia-info').css('display') == 'none') {
+         $('#repindia-info').fadeIn();
+         $('#corby-info').fadeOut();
+         $('#cardswap-info').fadeOut();
+         $('#academic-info').fadeOut();
+     } else {
+         $('#repindia-info').fadeOut();
+     }
+  });
+
+  $('#academic').click(function(){
+     if ($('#academic-info').css('display') == 'none') {
+         $('#academic-info').fadeIn();
+         $('#corby-info').fadeOut();
+         $('#cardswap-info').fadeOut();
+         $('#repindia-info').fadeOut();
+     } else {
+         $('#academic-info').fadeOut();
+     }
+  });
+
 });
 $(window).resize(function(){
   $('.main-name').css('padding-top',''+($(window).height())/2 - 123+'px');
